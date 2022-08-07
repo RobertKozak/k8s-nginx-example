@@ -1,1 +1,12 @@
-# k8s-nginx-example
+# Kubernetes NGINX Example
+
+A simple NGINX deployment example
+
+
+## Deploy
+
+```
+deploy.sh
+```
+
+
