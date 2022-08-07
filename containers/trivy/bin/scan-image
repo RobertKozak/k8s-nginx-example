@@ -1,0 +1,10 @@
+#!/bin/bash
+
+IMAGE=${1}
+SEVERITY=${2:-CRITICAL}
+CACHE_DIR=${CACHE_DIR:-/temp}
+
+echo "Running scan-image"
+
+RESULT=$(trivy --cache-dir ${CACHE_DIR} image ${IMAGE} -f json -s ${SEVERITY} --security-checks vuln --exit-code 1)
+

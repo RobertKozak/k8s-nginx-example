@@ -1,6 +1,4 @@
 #!/bin/bash
 
-kubectl create namespace devops
-
-kubectl apply -f .
+kubectl apply -f resources
 
