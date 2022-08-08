@@ -29,7 +29,7 @@ spec:
         runAsGroup: 1000
       containers:
       - name: nginx
-        image: nginx:1.23.1
+        image: nginx-example:1.0
         ports:
         - containerPort: 8080
         securityContext:

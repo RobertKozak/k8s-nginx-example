@@ -1,0 +1,9 @@
+#!/bin/bash
+
+cd containers/trivy
+
+docker build -t test-scan:1.0 .
+
+cd ../nginx
+
+docker build -t nginx-example:1.0 .
