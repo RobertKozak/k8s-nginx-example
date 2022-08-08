@@ -17,7 +17,7 @@ The Pipeline is created with 3 bash files:
 
 pipeline will call build and then deploy.
 
-### arguments to pipeline and deploy
+#### pipeline and deploy args
 Use:
 
 --force to skip trivy CVE scan
