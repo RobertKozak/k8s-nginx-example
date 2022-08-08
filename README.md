@@ -20,9 +20,9 @@ pipeline will call build and then deploy.
 #### pipeline and deploy args
 Use:
 
---force to skip trivy CVE scan
---show-sbom to display SBOM
---show-all to display the results of deployment
+* --force to skip trivy CVE scan
+* --show-sbom to display SBOM
+* --show-all to display the results of deployment
 
 ## SBOM
 
