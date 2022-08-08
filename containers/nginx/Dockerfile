@@ -1,5 +1,5 @@
 FROM nginx:1.23.1
-LABEL maintainer="Robert Kozak <robertkozak@gmail.com>"
+LABEL maintainer="Robert Kozak <rkozak@gmail.com>"
 
 ## install python3
 RUN apt-get update && \

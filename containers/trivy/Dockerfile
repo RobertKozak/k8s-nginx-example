@@ -1,5 +1,5 @@
 FROM alpine:3.15.0
-LABEL maintainer="Robert Kozak <robertkozak@gmail.com>"
+LABEL maintainer="Robert Kozak <rkozak@gmail.com>"
 
 COPY /bin /usr/local/bin
 
